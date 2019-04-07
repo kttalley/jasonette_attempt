@@ -1,0 +1,23 @@
+{
+    "$jason": {
+      "head": {
+        "title": "HTML demo",
+        "templates": {
+          "body": {
+            "style": {
+              "background": "#000000",
+              "color": "#404923",
+              "border": "none"
+            },
+            "header": {
+              "style": {
+                "background": "#000000",
+                "color": "#ffffff"
+              },
+              "title": "< ·ᴥ·>"
+            }
+          }
+        }
+      }
+    }
+  }

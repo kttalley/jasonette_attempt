@@ -2,58 +2,29 @@
   "$jason": {
     "head": {
       "title": "HTML canvas template",
-      "data": {
-        "items": [
-          {
-            "name": "Agent",
-            "url": "https://jasonette.github.io/Jasonpedia/webcontainer/agent/index.json"
-          },
-          {
-            "name": "anime.js",
-            "url": "https://jasonette.github.io/Jasonpedia/webcontainer/animejs.json"
-          },
-          {
-            "name": "lots of web containers",
-            "url": "https://jasonette.github.io/Jasonpedia/webcontainer/lots.json"
-          },
-          {
-            "name": "pdf.js",
-            "url": "https://jasonette.github.io/Jasonpedia/webcontainer/pdf.json"
-          },
-          {
-            "name": "svg",
-            "url": "https://jasonette.github.io/Jasonpedia/webcontainer/svg.json"
-          },
-          {
-            "name": "three.js",
-            "url": "https://jasonette.github.io/Jasonpedia/webcontainer/threejsblocks.json"
-          },
-          {
-            "name": "three.js rainbow",
-            "url": "https://jasonette.github.io/Jasonpedia/webcontainer/threejsrainbow.json"
-          },
-          {
-            "name": "phaser",
-            "url": "https://jasonette.github.io/Jasonpedia/webcontainer/phasergame.json"
-          },
-          {
-            "name": "Gauge D3",
-            "url": "https://jasonette.github.io/Jasonpedia/webcontainer/d3gauge.json"
-          },
-          {
-            "name": "D3 graph",
-            "url": "https://jasonette.github.io/Jasonpedia/webcontainer/d3graph.json"
-          },
-          {
-            "name": "Feed",
-            "url": "https://jasonette.github.io/Jasonpedia/webcontainer/feed/index.json"
-          }
-        ]
-      },
       "templates": {
         "body": {
           "type": "html",
-          "text": "<html><head><style>body{background:black;} .square{font-size: 20px; font-weight: light; font-family: 'Helvetica Neue', helvetica; display: inline-block; padding: 10px; border-radius: 20px; color:rgba(255,255,255,0.7);}</style><body><div id='domNode'><div class='large square el'></div></div></body></html>",
+          "text":
+           "<html>
+            <head>
+              <style>
+                body{background:black;} 
+                .square{font-size: 20px;
+                font-weight: light;
+                font-family:'Helvetica Neue', helvetica; 
+                display: inline-block;
+                padding: 10px;
+                border-radius: 20px;
+                color:rgba(255,0,255,0.7);}
+              </style>
+              <body>
+                <div id='domNode'>
+                  <div class='large square el'>
+                  </div>
+                </div>
+              </body>
+           </html>",
           "style": {
             "background": "#000000",
             "color": "#ffffff",

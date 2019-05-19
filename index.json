@@ -10,7 +10,10 @@
             <head>
               
               <body>
-               
+                <div id='domNode'>
+                  <div class='large square el'>
+                  </div>
+                </div>
               </body>
            </html>",
           "style": {

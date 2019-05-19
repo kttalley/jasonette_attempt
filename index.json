@@ -33,7 +33,7 @@
           "header": {
             "style": {
               "background": "#000000",
-              "color": "#ffffff"
+              "color": "rgba(255,0,255,0.7)"
             },
             "title": "HTML Canvas Web app"
           }

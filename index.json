@@ -8,16 +8,7 @@
           "text":
            "<html>
             <head>
-              <style>
-                body{background:black;} 
-                .square{font-size: 20px;
-                font-weight: light;
-                font-family:'Helvetica Neue', helvetica; 
-                display: inline-block;
-                padding: 10px;
-                border-radius: 20px;
-                color:rgba(255,0,255,0.7);}
-              </style>
+              
               <body>
                 <div id='domNode'>
                   <div class='large square el'>
@@ -27,7 +18,7 @@
            </html>",
           "style": {
             "background": "#000000",
-            "color": "#ffffff",
+            "color": "rgba(255,0,255,0.7)",
             "border": "none"
           },
           "header": {

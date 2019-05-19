@@ -124,7 +124,7 @@ let xoff = 0;
 let yoff = 1000;
 
 function setup() {
-createCanvas(400,400);
+createCanvas(window.innerWidth,window.innerHeight);
 for (let i = 0; i < 5; i++){
 let x1 = random(width);
 let x2 = random(width);
@@ -154,7 +154,9 @@ particle.update(noise(xoff)*width,noise(yoff)*height);
 xoff += 0.01;
 yoff += 0.01;
 particle.show();
-player.update(mouseX,mouseY);
+function touchMoved(){
+  player.update(mouseX,mouseY);
+}
 player.show();
 // ray.show();
 // ray.lookAt(mouseX, mouseY);
